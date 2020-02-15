@@ -73,7 +73,7 @@
 				          echo "  <span class='fa fa-save'></span> Save";
 				          echo "</button>";
 				          echo "<a> </a>";
-				          echo "<a class='btn btn-default' href='index.php'>";
+				          echo "<a class='btn btn-default' href='main.php'>";
 				          echo "  <span class='fa fa-arrow-left'></span> Back to main";
 				          echo "</a>";
 				          echo "</form>";
