@@ -24,8 +24,8 @@
     </div>
     <div class="row">
       <div class="jumbotron">
-        <h1>Love Mail <span class="fa fa-heart"></span></h1>
-        <p>Welcome to Love Mail...</p>
+        <h1>Gugma Mail <span class="fa fa-heart"></span></h1>
+        <p>Welcome to Gugma Mail...</p>
       </div>
     </div>
     <div class="row">
