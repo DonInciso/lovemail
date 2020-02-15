@@ -14,7 +14,7 @@
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand" href="#">
-             <span class="fa fa-envelope"></span> Love Mail
+             <span class="fa fa-envelope"></span> Gugma Mail
             </a>
           </div>
           <ul class="navbar-nav">
@@ -101,6 +101,7 @@
         <br>
       </div>
     </div>
+    <br>
     <?php include 'includes/footer.php' ?>
   </div>
  </div>
