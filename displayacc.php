@@ -19,7 +19,7 @@
 				      
 				      echo "<div class='alert ". $_SESSION['alert'] ."'>";
 
-				      echo"<span class='fa fa-exclamation-circle'></span>"; 
+				      echo"<span class='fa fa-exclamation-circle'></span> "; 
 				      
 				        echo $_SESSION['error_msg'];
 				      ?>
