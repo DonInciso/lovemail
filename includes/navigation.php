@@ -3,7 +3,7 @@
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand" onclick="sysy()" href="#">
-             <span class="fa fa-envelope"></span> Love Mail
+             <span class="fa fa-envelope"></span> Gugma Mail
             </a>
           </div>
           <ul class="nav navbar-nav navbar-right">
@@ -56,6 +56,6 @@
 
     <script >
       function sysy(){
-        alert('Thank You For Using Love Mail, ENJOY!!!');
+        alert('Thank You For Using Gugma Mail, ENJOY!!!');
       }
     </script>

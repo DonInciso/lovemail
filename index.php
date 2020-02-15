@@ -98,7 +98,7 @@
          role="button" data-slide="next">
           <span class="sr-only">Next</span>
         </a>
-
+        <br>
       </div>
     </div>
     <?php include 'includes/footer.php' ?>
