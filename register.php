@@ -43,6 +43,22 @@
        unset($_SESSION['error_message']);
        }
       ?>
+      
+
+      <?php
+       session_start();
+       if(isset($_SESSION['email_exist'])){
+      ?>
+      <div class="alert alert-danger">
+      <span class="fa fa-exclamation-circle"></span> 
+      <?php
+        echo $_SESSION['email_exist'];
+      ?>
+      </div>
+      <?php
+       unset($_SESSION['email_exist']);
+       }
+      ?>
 
       <div class="panel panel-primary">
         <div class="panel-heading">
