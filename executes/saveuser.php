@@ -8,9 +8,9 @@
    $password2=$_POST['password2'];
    
   
-   
+   session_start();
       if($password1<>$password2){
-        session_start();
+        
         $_SESSION['error_message']="Invalid username or password";
         header("Location:../register.php");
       } else {
@@ -28,7 +28,7 @@
             }
             header("Location:../index.php");
           }
-         
+          header("Location:../register.php");
         }
       }
 ?>
