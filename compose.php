@@ -47,7 +47,7 @@
                     $last_name = $emails['last_name'];
                   
               
-                echo "<option value=' " . $id . " '>" . $email . ' ('. $first_name . ' ' . $last_name . ')'  "</option>";
+                echo "<option value=' " . $id . " '>" . $email . ' ('. $first_name . ' ' . $last_name . ')' . "</option>";
                 
                   }
                  ?>
