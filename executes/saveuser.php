@@ -23,7 +23,7 @@
             $same = 'true';
           }
         }
-          if ($same == 'false'){
+          if ($same != 'true'){
             $sql="INSERT INTO users (last_name,first_name,middle_name,bdate,email,password, date_created) VALUES ('$last_name','$first_name','$middle_name','$bdate','$email',md5('$password1'), CURRENT_TIME)";
             if(!mysqli_query($connection,$sql)){
               die("error" . mysqli_error($connection));
