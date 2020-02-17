@@ -43,9 +43,11 @@
                     unset($email);
                     $id = $emails['id'];
                     $email = $emails['email'];
+                    $first_name = $emails['first_name'];
+                    $last_name = $emails['last_name'];
                   
               
-                echo "<option value=' " . $id . " '>" . $email .   "</option>";
+                echo "<option value=' " . $id . " '>" . $email . ' ('. $first_name . ' ' . $last_name . ')'  "</option>";
                 
                   }
                  ?>
