@@ -6,16 +6,17 @@
    $email=$_POST['email'];
    $password1=$_POST['password1'];
    $password2=$_POST['password2'];
-   require 'connection.php';
-   $sqli = "SELECT * FROM users";
-   mysqli_query($connection,$sqli)
+   
   
-   session_start();
+   
       if($password1<>$password2){
-        
+        session_start();
         $_SESSION['error_message']="Invalid username or password";
         header("Location:../register.php");
       } else {
+        require 'connection.php';
+        $sqli = "SELECT * FROM users";
+        mysqli_query($connection,$sqli)
         while($row=mysqli_fetch_assoc($sql_result))
         {
           if ($email == $row['email']){
