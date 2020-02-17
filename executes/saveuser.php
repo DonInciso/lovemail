@@ -16,7 +16,7 @@
       } else {
         require 'connection.php';
         $sqli = "SELECT * FROM users";
-        mysqli_query($connection,$sqli)
+        $sql_result = mysqli_query($connection,$sqli);
         while($row=mysqli_fetch_assoc($sql_result))
         {
           if ($email == $row['email']){
