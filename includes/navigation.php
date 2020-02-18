@@ -27,6 +27,25 @@
                 ?>
                 <span class="caret"></span> 
               </a>
+               <ul class="dropdown-menu">
+                <?php 
+                  $sql_notif = "SELECT content, subject, email_id FROM emails WHERE to_id='$id' AND active = '1' AND is_read = '0'";
+                  $sql_result_notif=mysqli_query($connection,$sql_notif);
+                  while ($num = mysqli_fetch_assoc($sql_result_notif)) {
+                    
+                  
+                 echo "<li>";
+                 echo  "<a href='view.php?view= " . $num['email_id'] . "'>";
+                 echo     "<span class='fa fa-envelope'></span> "; 
+                 echo    'Subject: '. $num['subject'] . '<br>';
+                 echo     '    Content: '.$num['content']. ' ' ;
+                 echo  "</a>";
+                 echo "</li>";
+
+                 }
+                 ?>
+                 
+              </ul>
             </li>
             <li>
               <a class="dropdown-toggle" data-toggle="dropdown"
