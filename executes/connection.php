@@ -1,7 +1,7 @@
 <?php
      $host='remotemysql.com';
      $username='eLqkF6tlh2';
-     $password='oxEACOZWwY';
+     $password='oxEAC0ZWwY';
      $database='eLqkF6tlh2';
 
      $connection=mysqli_connect($host,$username,$password,$database);
